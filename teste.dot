@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+graph [ranksep=equally, splines=polyline] ;
+0 [label="age <= 34.921\nentropy = 0.588\nsamples = 2000\nvalue = [1717, 283]", fillcolor="#e58139d5"] ;
+1 [label="loan <= 3674.852\nentropy = 0.958\nsamples = 746\nvalue = [463, 283]", fillcolor="#e5813963"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="income <= 27563.671\nentropy = 0.312\nsamples = 356\nvalue = [336, 20]", fillcolor="#e58139f0"] ;
+1 -> 2 ;
+3 [label="entropy = 0.787\nsamples = 85\nvalue = [65, 20]", fillcolor="#e58139b1"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 271\nvalue = [271, 0]", fillcolor="#e58139ff"] ;
+2 -> 4 ;
+5 [label="loan <= 7707.778\nentropy = 0.91\nsamples = 390\nvalue = [127, 263]", fillcolor="#399de584"] ;
+1 -> 5 ;
+6 [label="entropy = 0.997\nsamples = 270\nvalue = [126, 144]", fillcolor="#399de520"] ;
+5 -> 6 ;
+7 [label="entropy = 0.07\nsamples = 120\nvalue = [1, 119]", fillcolor="#399de5fd"] ;
+5 -> 7 ;
+8 [label="entropy = 0.0\nsamples = 1254\nvalue = [1254, 0]", fillcolor="#e58139ff"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+{rank=same ; 0} ;
+{rank=same ; 1} ;
+{rank=same ; 2; 5} ;
+{rank=same ; 3; 4; 6; 7; 8} ;
+}
