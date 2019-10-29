@@ -1,45 +1,50 @@
-# Minhas anotações do curso
+# Minhas anotaÃ§Ãµes do curso
 
 
-O material disponibilizado nesse repositório são anotações e exercícios do curso do Professor Jones Granatyr (Udemy), além de alguns testes meus com base nos modelos ensinados em aula.
-
-
-
-## Organização
-
-
-Os arquivos encontram-se em Jupyter Notebooks por ser a maneira mais didática de observar o que está ocorrendo em cada etapa da análise ou implementação do modelo.
+O material disponibilizado nesse repositÃ³rio sÃ£o anotaÃ§Ãµes e exercÃ­cios do curso do Professor Jones Granatyr (Udemy), alÃ©m de alguns testes meus com base nos modelos ensinados em aula.
 
 
 
-**Parte 01 - Classificação**
+## OrganizaÃ§Ã£o
 
-- Seção 04 - Aprendizagem Bayesiana
 
-- Seção 04 - Aprendizagem Bayesiana (Análise de crédito)
-
-- Seção 05 - Aprendizagem por árvores de decisão (Análise de crédito)
-
-- Seção 05 - Aprendizagem por árvores de decisão (Análise de crédito-sem escalonamento)
-
-- Seção 07 - Aprendizagem baseada em instâncias (KNN)
+Os arquivos encontram-se em Jupyter Notebooks por ser a maneira mais didÃ¡tica de observar o que estÃ¡ ocorrendo em cada etapa da anÃ¡lise ou implementaÃ§Ã£o do modelo.
 
 
 
-**Parte 02 - Regressão**
+**Parte 01 - ClassificaÃ§Ã£o**
 
-- Seção 14 - Regressão Linear Simples
+- SeÃ§Ã£o 04 - Aprendizagem Bayesiana
 
-- Seção 14 - Regressão Linear (Desafio_Auto Imports Database)
+- SeÃ§Ã£o 04 - Aprendizagem Bayesiana (AnÃ¡lise de crÃ©dito)
+
+- SeÃ§Ã£o 05 - Aprendizagem por Ã¡rvores de decisÃ£o (AnÃ¡lise de crÃ©dito)
+
+- SeÃ§Ã£o 05 - Aprendizagem por Ã¡rvores de decisÃ£o (AnÃ¡lise de crÃ©dito-sem escalonamento)
+
+- SeÃ§Ã£o 07 - Aprendizagem baseada em instÃ¢ncias (KNN)
 
 
 
-**Parte 03 - Regras de associação**
+**Parte 02 - RegressÃ£o**
+
+- SeÃ§Ã£o 14 - RegressÃ£o Linear Simples
+
+- SeÃ§Ã£o 14 - RegressÃ£o Linear (Desafio_Auto Imports Database)
+
+
+
+**Parte 03 - Regras de associaÃ§Ã£o**
 
 
 
 **Parte 04 - Agrupamento**
 
-- Seção 20 - Agrupamento com K-means e K-medians (Análise de crédito)
+- SeÃ§Ã£o 20 - Agrupamento com K-means e K-medians (AnÃ¡lise de crÃ©dito)
 
-- Seção 20 - Agrupamento com K-means++ (Análise de crédito)
+- SeÃ§Ã£o 20 - Agrupamento com K-means++ (AnÃ¡lise de crÃ©dito)
+
+
+Por fim, para facilitar (para mim), uso um mapa, que estÃ¡ em constante preenchimento, para **navegar**. =)
+
+<img src="./imagens/mapaGustavoSuto.png" alt="Diagrama de decisÃ£o bem simpifcado" width="1000"/>
