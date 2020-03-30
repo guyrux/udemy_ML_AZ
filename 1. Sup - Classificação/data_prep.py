@@ -47,8 +47,9 @@ class data_prep:
         
         """
         serie = (df.isnull().sum().sort_values(ascending=False)/len(df))*100
-        return (serie[serie > corte], ("-> {} atributos/features/campos possuem mais de {}% de valores nulos.".
-                format(len(serie[serie > corte]),corte)))
+        print("-> {} atributos/features/campos possuem mais de {}% de valores nulos.".
+              format(len(serie[serie > corte]),corte))
+        return serie[serie > corte]
     
     def cardinalidade(df):
         """
