@@ -61,12 +61,12 @@ class data_prep:
         """
         import pandas as pd
         
-        df_temporario = df.select_dtypes(exclude=["int64", "float64"])
+        df_temporario = df.select_dtypes(exclude=["float64"])
 
         matriz_cardialidade = []
 
         for i, coluna in df_temporario.items():
-            matriz_cardialidade.append([i, len(df_temporario[i].unique()), df_temporario[i].unique()])
+            matriz_cardialidade.append([i, len(df_temporario[i].unique()), sorted(df_temporario[i].unique())])
             
         matriz_cardialidade = pd.DataFrame(matriz_cardialidade, columns=["Atributo", "Cardinalidade", "Valores"])
         matriz_cardialidade.sort_values(by="Cardinalidade", inplace=True, ascending=True)
